@@ -1,0 +1,183 @@
+html, body, div, a, font, img, ul, li, form, label, tr, th, td, table, p, h1, h2, h3 { 
+ margin: 0; 
+ padding: 0; 
+ border: 0; 
+ outline: 0;
+ font-weight: 300; 
+ font-style: normal;
+ font-size: 22px; 
+ font-family:  Roboto, Verdana; 
+ }
+ 
+:focus { 
+ outline: 0; 
+}
+
+html, body {
+    height: 100%;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+a {
+    font-size: 14px;
+    font-family: Verdana, Roboto;  
+    color: #666666;  
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+
+.line {
+    background-color: #0E0E0E; 
+    height: 50px; 
+    width: 100%; 
+    opacity: 0.8;    
+    min-width: 800px;
+}
+
+#header_caption {
+    height: 100%;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: Verdana, Roboto;
+    margin-left: 32px;
+    color: #FFFFFF;
+}
+
+#content {
+    margin: 5% 5% 10% 5%;
+    min-width: 700px;
+}
+
+#content_desc {
+    width: 550px; 
+    text-align: left; 
+    padding-right: 32px; 
+    border-right: 1px solid #0E0E0E; 
+    vertical-align: top;
+}
+
+#content_desc h1 {
+    padding: 0px 0px 18px 0px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#content_desc p {
+    text-align: justify;
+    line-height: 33px;   
+}
+
+
+
+#content_form {
+    padding-left: 32px; 
+    text-align: left; 
+    width: 500px; 
+}
+
+#content_form form {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+#content_form input, textarea {
+    background-color: rgba(255, 255, 255, 0.1); 
+    width: 100%; 
+    border-radius: 4px; 
+    border: 1px solid rgb(70, 70, 70);  
+    font-size: 18px; 
+    font-family: Roboto;   
+}
+
+#content_form_email {
+    height: 16px; 
+    padding: 8px; 
+    margin: 16px 0px 16px 0px; 
+}
+
+#content_form_desc {
+    height: 150px; 
+    padding: 8px; 
+    margin: 16px 0px 0px 0px; 
+    resize: none; 
+}
+
+#content_form_mess {
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+	background-color: transparent;
+	text-indent: 0;
+	display: inline-block;
+	height: 36px;	
+	width: 150px !important; 
+	text-decoration: none;
+	text-align: center;   
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.btn:hover {
+ cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;     
+}
+
+#copyright {
+    line-height: 50px;
+    font-size: 14px;
+    font-family: Verdana;
+    color: #666666;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 850px) {
+    
+ #content_desc h1 {
+    padding: 0px 0px 8px 0px;
+    font-size: 24px;
+    font-weight: 700;
+ }
+
+ #content_desc p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;   
+ }
+ 
+ #content_form {
+    vertical-align: top;
+ }
+ 
+ #content_form form {
+   font-size: 16px;  
+ }
+
+      
+} 
+
+@media screen and (max-height: 550px) {
+
+ #footer {
+    position: static;   
+}
+
+}
